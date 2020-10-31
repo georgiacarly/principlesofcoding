@@ -1,0 +1,137 @@
+*
+{
+    margin: 1;
+    padding: 1;
+
+}
+body {
+    background-color: #f7e7fe;
+}
+
+/*---- Navigation ----*/
+#nav-bar
+{
+     position: sticky;
+     top: 0;
+     z-index: 10;
+}
+.navbar-brand 
+{
+    height: 40px;
+}
+.navbar-nav li 
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #EE82EE!important;
+} 
+.navbar
+{
+    background: #c0c0c0;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link 
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*------Home------*/ 
+#home
+{
+    color: #000080;
+    text-align: left;
+    margin-left: 35px;
+}
+
+.banner {
+    width: 100%;
+    background-image: url(slider1.jpeg);
+    height: 800px;
+    background-color: purple;
+    background-position: center;
+}
+.home-content 
+{
+    padding-top: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+h2 
+{
+    font-family: 'Alegreya', serif;
+    font-weight: 800; 
+}
+
+h3, h4 
+{ 
+    font-family: 'Alegreya', serif; 
+    font-weight: 700; 
+}
+
+p 
+{ 
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a
+{ 
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.georgia 
+{
+    display: flex;
+    float: right;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+
+/*------Topic 1-----*/
+#topic1
+{
+    back
+}
+
+.flowchart 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover {
+        color: #EE82EE!important;
+}
+
+.sdlc {
+    display: flex;
+    float: right;
+    height: 400px;
+    width: 850px;
+    margin-bottom: 100px;
+}
+
+/*------Topic 2-----*/
+
+.webserver {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

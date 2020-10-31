@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Principles of Coding </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--NavigationBar-->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">The Principles of Coding</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="topic1.html">Topic 1: Understand Principles of Coding</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="topic2.html">Topic 2: Understand Web Components</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    
+    <!--- Topic 2 ---> 
+    <section id="home">
+        <div class="home">
+        <br> <h2> Topic 2: Understand Web Components  </h2> <br>
+        <div class= "home-content">
+            <h3> Topic 2.1 Hardware and Software Components </h3> <br>
+            <h4> Hardware </h4> <br> 
+               <p> <b> Webserver: </b> A web server is software that allows users to view webpages, 
+                through web browsers. When a website is typed into the URL bar, a browser sends a 
+                request to the web server, which then renders the page in your browser. </p> <br> 
+                <p> <b> Client: </b> Clients can be machines (laptop, computer, phone), or programmes 
+                  (web browsers, word processors etc. A client is used to make requests through the web. </p> <br>
+                <p> <b> Routers: </b> Routers are devices which forward data packets, between different computer networks. 
+                  They join networks together e.g. connecting your home network to the internet. Routers can be wired to 
+                  devices, or can be wireless. </p> <br> 
+                <p> <b> Mail Servers: </b> Mail Servers are what emails pass through when they are sent, either outgoing or incoming. 
+                  Once you send an email, your email client connects to a server and provides it with the information 
+                  (content, recipient, attachments) and the server locates the recipient's server, and transfers the information. </p> <br>
+                  <h4> Software </h4> <br>
+                  <p> <b> Content Management Systems: </b> A Content Management System (CMS) is an application which has the capability 
+                    to create, store, edit, manage and publish large amounts of content - with the user not requiring 
+                    programming skills to use. </p> <br> 
+                  <p> <b> Browsers: </b> A browser is a program that allows you to visit websites. 
+                    Every webpage runs through browsers, and they are free to download. </p> <br> 
+                  <p> <b> Web Authoring Software: </b> Web authoring software allows the creation of web pages, 
+                    in a way that doesn’t require the user to directly write the code e.g. WordPress, Umbraco. </p> <br> 
+                  <p> <b> Databases: </b>  Databases are used to manage and organise data, such as usernames, 
+                    email addresses and encrypted passwords. </p> <br> 
+                    
+                    <figure> <img src= "webserver.png" div class= "webserver"> 
+                    <figcaption> <a href= https://www.geeksforgeeks.org/web-server-and-its-type/ target="_blank"> 
+                    Image Source: GeeksForGeeks.Org </a> </figcaption> </figure>
+
+            <h3> Topic 2.2 Protocols </h3> <br>
+              <p> <b> HTML: </b> Hypertext Transfer Protocol. Hypertext is when there are links in text, HTTP is the 
+                protocol on how to transfer hypertext from web servers to web browsers. So how the links become visible within 
+                text on the browser, and available for users to use. Based on the client/server model, for example when 
+                the client (computer, phone, tablet) requests the server (website, application), the server responds to 
+                the request using HTTP rules. Ensures both the client and the server understand each other. </p> <br> 
+              <p> <b> HTTPS: </b> If using wireless networks, other clients on the network can potentially tap your data. 
+                The same can be done for wired networks, if the wire is directly wire tapped. To secure this connection, 
+                HTTPS can be used. HTTPS is a way to encrypt information sent across the internet, this can extend 
+                as far as encrypting domain names but also passwords, financial information etc. Prevents users from having 
+                information stolen and secures websites. </p> <br> 
+              <p> <b> FTP: </b> FTP stands for File Transfer Protocol, allows data to be transferred between two computers 
+                over an internet connection. </p> <br> 
+              <p> <b> SMTP: </b>  SMTP is Simple Mail Transfer Protocol, the protocol that allows you to send email 
+                to a mail server. </p> <br> 
+              <p> <b> TCP: </b>  TCP is Transmission Control Protocol makes data transfer reliable, ensuring data 
+                arrives at its destination. </p> <br> 
+
+            <h3> Topic 2.3 Web Technologies </h3> <br> 
+               <p> <b> Domains and Webhosting Services: </b>  A domain is the web address for your website. These can be purchased, 
+                and customised as long as the domain name isn’t already taken. Having a domain name makes it so that users 
+                can find your website. </p> <br> 
+              <p> <b> DNS: </b>  Stands for Domain Name System. The DNS looks up the correct IP address that matches a domain name,
+                 and sends a user to that particular website. </p> <br> 
+              <p> <b> IP Address: </b>  An IP address provides information about where your device is geographically. 
+                Consists of a unique set of numbers specific to a device. </p> <br> 
+              <p> <b> Security: </b>  To avoid being tracked, there are ways to hide an IP address including using VPN’s. 
+                The server that you’re connecting to will not be able to see your geographical location. There are ‘incognito’ modes 
+                on most browsers, which will reduce the number of cookies, but this is not totally effective. </p> <br> 
+
+            <h3> Topic 2.4 Search Engines </h3> <br>
+                <p> <b> Crawling and Indexing: </b> Google uses ‘spiders’ to crawl the web, to discover content to place it accordingly 
+                  into search results. As the content is crawled, a copy is stored on Google’s servers, which is Google’s index. 
+                  When a user searches, Google checks the index for everything relevant to the search phrase. </p> <br>
+                <p> <b> Relevance and Popularity: </b>  Google uses an algorithm to check everything relevant in the index, 
+                  and rank them based on this relevancy. There are many ranking factors e.g. content, linked content, website quality. </p> <br> 
+                <p> <b> Meta Information: </b>  Meta information is the information displayed about a page when it shows up on a search engine, 
+                  so the title, description and keywords tags. Having good meta information encourages users to open the page, and will encourage 
+                  the listing to go higher in Google’s search ranking. </p> <br> 
+                <p> <b> Artifical Influencing: </b> Artificial intelligence are future predictions based on past data, when done technologically the predictions can be very 
+                  accurate and used to inform future marketing techniques. </p> <br> 
+        </div>    
+    </section>
+</body>

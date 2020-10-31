@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Principles of Coding </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!---NavigationBar--->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">The Principles of Coding</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="topic1.html">Topic 1: Understand Principles of Coding</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="topic2.html">Topic 2: Understand Web Components</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    
+    <!----- Topic 1 ------> 
+    <section id="home">
+        <div class="home">
+        <br> <h2> Topic 1: Understand the Principles of Coding </h2> <br>
+        <div class= "home-content">
+        <h3> Topic 1.1 Logic </h3> <br>
+
+                  <p> <b> Algorithm: </b> a step-by-step way to solving a problem, or a way of telling a computer how to reach a goal. 
+                    Computers typically run algorithms, but humans use algorithms too. 
+                    For example, if you wanted to count all the apples in your fruit bowl, 
+                    the decision to count them one by one and come to a total would be an algorithm.  
+                  </p> <br>
+                  <p> <b> Pseudocode: </b>  Easy to read syntax that resembles programming languages. 
+                    For example, if you were counting apples (A), you could have pseudocode saying: A=0, for each apple in the fruit bowl, 
+                    set A = A+1. This is written in a way so that people could understand it, not just computers. 
+                  </p> <br>
+                  <p> <b> Flowchart: </b> A diagram of the steps needed in order to reach a goal, so a visual representation of the algorithm
+                     previously mentioned. Steps are laid out into shapes, and connected with lines and arrows - allowing anyone to view the chart 
+                     and understand the process of the algorithm. There are different shapes for different aspects of a flowchart, 
+                     for example starting and ending symbols tend to have rounded edges, with actions or processes being displayed in rectangles. 
+                     </p> <a href="Flowchart Reloading Gun (002).png" target="_blank"> Evidence of a Flowchart I have created is available here. </a> <br>
+
+                  
+                    <img src= "Basic-Flowchart-Template-with-one-decision-.png" div class="flowchart"> <br>  
+                    
+
+                     <p> <b> Sequence: </b> The order in which instructions occur, and are processed. For example, 
+                      step 1 is followed by step 2 and 3. For example, somebody who wakes up at 7am, brushes their teeth and then has a shower, 
+                      is following a particular ‘sequence’.  
+                    </p> <br> 
+                    <p> <b> Selection: </b> Which path the program takes when it is running. So, instead of following a strict set sequence, 
+                      a selection would create a variable - either you could perform this action, or not, depending on other factors. 
+                      For example, if you went to brush your teeth and there was no toothpaste, this action wouldn’t be possible. 
+                      In this instance, you may have to divert from your sequence.  
+                    </p> <br> 
+                    <p> <b> Iteration: </b> Repeated execution of a section of code while the program is running. 
+                      This is also known as a ‘loop’, and can be used to repeat the exact same action until the desired outcome is reached.
+                       For example, if you took each brush stroke of your teeth as one action, you would ‘loop’ this action until you have
+                        reached the outcome of your desired duration. (Have I reached 2 minutes? Yes) In computer programming, this 
+                        ensures that the same repetitive action does not need to be typed out hundreds of times.
+                      </p> <br> <br>
+                      
+                      <h4> The Software Development Life Cycle </h4> <br> 
+                      <figure> 
+                      <img src= "sdlc.png" div class="sdlc"> 
+                      <figcaption> <a href="https://melsatar.blog/2012/03/15/software-development-life-cycle-models-and-methodologies/" target= "_blank"> 
+                        Image Source: Melsatar.blog </a> </figcaption>
+                      </figure>
+                      <ol> 
+                        <li> <p> <b> Requirement Gathering and Analysis </b> </p> </li>
+                          <ul> <li> <p> Software Development typically begins with a customer, who has an idea for a website. 
+                            They would contact a software developer, who would agree on the terms and accept the project. 
+                            The customer and developer together would outline the requirements of the website, for example the customer 
+                            may request a log-in section, a dashboard landing page etc. These requirements would then be broken down 
+                            by programmers into actionable tasks during the analysis process. For example, a log-in section would 
+                            require the creation of a username and password input field, a database to hold client details, a submit button etc. </li>   
+                             </ul> </p> <br> 
+                        <li> <p> <b> Design </b> </p> </li>
+                        <ul> <li> <p> The design phase works with all the requirements, and begins to plan the product. This would contain things like the 
+                          colour scheme, the layout of the pages, the choice of programming languages etc. </li> </p> </ul> <br> 
+                        <li> <p> <b>  Implementation </b> </p> </li> 
+                        <ul> <li> <p> The physical hardware is now set-up for the creation of the site, and the programmers begin to write the code. </p> </li></ul> <br>
+                        <li> <p> <b> Testing </b> </p> </li> 
+                        <ul> <li> <p> Throughout the implementation process, testers can use the website to spot any bugs, 
+                          or things that don’t make sense, and can spot flaws while the development is still early. There is also a testing 
+                          process once the page is fully developed, to check for any last potential mistakes before the website is presented
+                           to a client. They need to check whether all the functionalities work as intended, that all the website 
+                           requirements have been met, and that the design appears as desired. Any bugs that are found are sent to developers, 
+                           and fixed at this stage. 
+                            </p> </li></ul> <br> 
+                        <li> <p> <b> Deployment </b> </p> </li>
+                        <ul> <li> <p> The staging development systems that have been used for testing will be prepared for production. 
+                          This may involve installing new hardware, creating new servers, and developing the URLs. Once this has been completed, 
+                          the website will be published live.  
+                           </p> </li> </ul> <br>  
+                        <li> <p> <b>  Maintenance </b> </p> </li>
+                        <ul> <li> <p> Once the website starts to be used, the servers and the system needs to be maintained. Need to monitor the usage 
+                          of the website, the storage of the website, and the strength of the servers measured up to the number of users. 
+                          This could require changes, such as expanding servers and databases to meet increased demand. Users may also get 
+                          in contact to report bugs, which then need to be resolved by the development team. </p> </li> 
+                        </ul> </ol> <br> <br> 
+
+        <h3> Topic 1.2 Coding Languages </h3> <br>
+                <p> <b> HTML: </b> Defined as HyperText Markup Language. 
+                  HTML is a markup language, which tells the browser how to display content. Some content may be in headings, 
+                  or in tables, or it may be displayed in images. HTML is written with tags, which tend to comprise an opening 
+                  and a closing tag. For example putting the tag <strong>'strong' would surround text, in order to make it bold. </strong> This tag 
+                  describes what the browser should do with that text. However, not all browsers render HTML in the same way. 
+                  The HTML would tell the text to be strong, but the browser than decides exactly in which way this is displayed.   
+                   </p> 
+                 <a href="Codeacademy Learn HTML Course.pdf" target="_blank"> Evidence: Completion of Codecademy Course in HTML 100% </a> <br> 
+                   <br> <p> <b> CSS: </b> Defines the design and style of a website. Stands for ‘Cascading Style Sheets’ and includes things
+                     like colours, fonts and text sizes. CSS can be used to change the look of multiple aspects of a page at once. 
+                     For example, it could change all the H2 text to being blue, bold and Times New Roman. Used alongside HTML 
+                     and JavaScript. </p>
+                     <a href="Codeacademy Learn CSS Course.pdf" target="_blank"> Evidence: Completion of Codecademy Course in CSS 100% </a> <br> 
+                  <br> <p> <b> JavaScript: </b> Unlike HTML or CSS, JavaScript is a scripting language. JavaScript was originally
+                     developed to be used in browsers to create interactive web pages, but now it can also be used in web/mobile apps, 
+                     networking apps (like streaming services), games and more. Scripting languages add functionality, 
+                     and extend the abilities of already built software. Programming languages, in comparison, develop software e.g. Java.  
+                     </p> <br>
+                    <p> <b> PHP: </b> PHP stands for HyperText Preprocessor. PHP is a popular, open-source (freely available to use/read)
+                       scripting language that runs on the server-side to build things for the web. In comparison, HTML, CSS and Javascript
+                        run on the client-side. Client side scripts are run on a browser, used by a client. Server side 
+                        scripts are run on a server, used by machines. 
+                    </p> <br> <br>
+
+        <h3> Topic 1.3 Compatibility of Code </h3> <br>
+                <p> <b> Governance: </b> The World Wide Web Consortium is the authority for technical standards on the internet. 
+                It's a free online resource that allows you to validate your code. This would be done for debugging purposes, to find 
+                potential parts in code that are not web compliant. Ensuring your code is strong makes the upkeep much easier, 
+                and assures other developers that your code is readable, easy to develop further, and that it is professional and clean. </p>
+                <a href="world wide web consortium.PNG" target="_blank"> Evidence: Check I did on this webpage through the World Wide Web Consortium. </a> <br> 
+                <br> <p> <b> Cross Browser Compatibility: </b> By complying with web standards, it is hoped that a final website product 
+                  would look somewhat consistent across different web browsers. Across different browsers, there are some similarities 
+                  due to W3C standards, but there are also many differences in appearance. 
+                  The most commonly used browsers are Internet Explorer, Google Chrome, Firefox and Safari. Developers would aim for 
+                  their website to look somewhat consistent across these four browsers. </p> <br> 
+                <p> <b> Websites, Mobile Sites and Apps: </b> Making your website mobile compatible can be done with a mobile website builder, 
+                  or through a mobile preview option on an existing web builder. Or, compatibility can be built directly through your code
+                   for multiple devices. This can be done through setting a ‘min-height’ and ‘max-height’, margins 
+                   and ‘zoom’ attributes accordingly.</p> <br> <br> 
+        </div>    
+    </section>
+</body>
